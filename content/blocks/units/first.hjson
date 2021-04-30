@@ -6,7 +6,11 @@ details: "These arcane machinery were built in the beginning of time as a way fo
 size: 3
 consumes: {
 power: 40
-oil: 3
+liquid: {
+liquid: [
+oil/4
+]
+}
 }
 plans: [
 {

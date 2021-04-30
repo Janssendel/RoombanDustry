@@ -1,7 +1,7 @@
 type: GenericSmelter
 localizedName: Voidal Coagulator
 description: Creats crude void material from liquid void , for the purpose of later refining the crude void into Voidal Ingots .
-details: "A creation that harvests black holes to make crude void . crude void essence is highly deadly , and still retains some anomalous properties of the source that was used to make them ."
+details: "A creation that harvests black holes to make crude void . Crude void essence is highly deadly , and still retains some anomalous properties of the source that was used to make them ."
 hasPower: true
 hasItems: false
 hasLiquids: true
