@@ -1,0 +1,27 @@
+type: UnitFactory
+name: Voidal Construct
+localizedName: Voidal Construct
+description: Roombanion facility , used for the production of Enmities .
+details: "These arcane machinery were built in the beginning of time as a way for the Roombanion to construct it's expansive armada . These things have withstood the test of eternity , and have made the Roombanion's very first ship to the Roomba ships you see today."
+size: 3
+consumes: {
+power: 40
+liquid: {
+liquid: [
+oil/4
+]
+}
+}
+plans: [
+{
+unit: enmity
+time: 300
+requirements: [
+voidal-ingots/40
+surge-alloy/30
+ithrium/25
+]
+}
+]
+research: citadel
+category: units
