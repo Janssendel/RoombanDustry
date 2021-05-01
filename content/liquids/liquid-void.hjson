@@ -1,0 +1,10 @@
+name: Liquid Void
+description: Void , in it's most natural form . Occasionally seen in the form of black holes . Can be made from other sources such as eldritch horrors .
+details: "Void in it's most natural form is an often used to make other things , other than coagulating into well , crude void ."
+temperature: 0
+viscosity: 0.1
+heatCapacity: 10000
+explosiveness: 1000
+effect: unmoving
+color: 2c2d38
+research: cryofluid
