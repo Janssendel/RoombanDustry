@@ -1,0 +1,36 @@
+type: GenericSmelter
+localizedName: Voidal Coagulator
+description: Creats crude void material from liquid void , for the purpose of later refining the crude void into Voidal Ingots .
+details: "A creation that harvests black holes to make crude void . Crude void essence is highly deadly , and still retains some anomalous properties of the source that was used to make them ."
+hasPower: true
+hasItems: false
+hasLiquids: true
+craftTime: 1
+flameColor: 7c4b80
+craftEffect: {
+type: WaveEffect
+lifetime: 10
+sizeFrom:0
+sizeTo: 20
+colorFrom: 995d9a
+colorTo: 995d9a
+strokeFrom: 20
+strokeTo: 0
+}
+updateEffect: spawnShockwave
+consumes: {
+power: 50
+liquid: {
+liquid: liquid-void
+amount: 0.50
+}
+}
+requirements: [
+surge-alloy/40
+plastanium/25
+thorium/30
+]
+category: crafting
+buildVisibility: shown
+research: citadel
+outputItem: crude-void/2

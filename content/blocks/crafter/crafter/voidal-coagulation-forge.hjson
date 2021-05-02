@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Voidal Coagulation Forge
+localizedName: Voidal Coagulation Forge
+description: Not-so-friendly piece of reality-morping forge that creates the Voidal Ingots for all the Roombanion structures
+details: "Ancient , mysterious , and most of all , very hazardous to the minds that sees them ." 
+size: 5
+hasPower: true
+hasItems: true
+hasPower: true
+craftTime: 90
+craftEffect: nuclearcloud
+flameColor: 7457ce
+updateEffect: producesmoke
+consumes: {
+power: 100
+liquid: {
+liquid: liquid-void
+amount: 4
+}
+}
+requirements: [
+surge-alloy/30
+plastanium/15
+crude-void/40
+]
+category: crafting
+research: citadel
+outputItem: voidal-ingots/5
