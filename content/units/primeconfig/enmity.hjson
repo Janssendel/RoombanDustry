@@ -4,7 +4,7 @@ description: The first of the first , the Enmity are the Founder's most ancient 
 details : "I'd like to say them as the ancient relics of eras gone by , mostly relegated to fast Roombanion Attack Squadrons . They are a force to be reckoned with , as their pre-Eistur designs make them the most ancient designs that still are being used after the Roomban Ascencion and after the collapse of many civilizations past . These ships are speed demons that will surely make you have a bad time for not looking at the radar . /n -Roomber , at the 9th Veratonian Ship Conventions"
 flying: true
 hitSize: 20
-health: 400
+health: 150
 armor: 40
 range: 100
 rotateSpeed: 50
