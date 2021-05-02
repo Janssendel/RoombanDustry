@@ -1,0 +1,18 @@
+name: Bull
+type: flying
+description: the bigger cousin of the Cow , the Bull is a direct step up in the evolution of cargo haulers . It's speed might be slow , but it can now defend itself from other units , though it should still have some escorts , as the 2 guns on the front and rear of the ship wont do much to tier 2 vessels .
+defaultController: MinerAI
+speed: 0.70
+rotateSpeed: 0.70
+drag: 0.2
+accel: 0.70
+miningRange: 2
+armor: 9
+rotateShooting: false
+itemCapacity: 1000
+mineSpeed: 10
+hitSize: 40
+engineOffest: 40
+engineSize: 40
+strafePenalty: 0
+
