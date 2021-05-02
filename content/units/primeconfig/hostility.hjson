@@ -1,0 +1,40 @@
+name: Hostility
+type: flying
+description: A flying piece of pure ragequitery . The hostility is very hard to control due to it's copious amounts of burt LRMs and SSRMs carried . It's an amalgamation of pure annoyance coupled with good design philosophy .
+health : 500
+hitSize: 25
+flying: true
+speed: 1.75
+rotateSpeed: 1.25
+accel: 1.75
+engineOffset: 10
+engineSize: 3
+lightRadius: 30
+lightCOlor: 2c2d38
+weapons: [
+{
+mirror: true
+x: 3
+y: 4
+shake: 1
+shootSound: missileDischarge
+shots: 15
+inaccuracy: 5
+bullet: {
+type: MissileBulletType
+damage: 350
+liftime: 100
+trailColor: 2c2d38
+trailEffect: fireballsmoke
+height: 40
+width: 10
+homingPower: 2
+homingRange: 100
+status: blasted
+}
+}
+]
+research: enmity
+
+
+
