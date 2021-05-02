@@ -7,7 +7,7 @@ size: 3
 consumes: {
 power: 40
 liquid: {
-liquid: oil/4
+liquid: slag/4
 }
 }
 plans: [
@@ -19,6 +19,14 @@ voidal-ingots/40
 surge-alloy/30		
 ]
 }	
-]	
+{
+unit: cow
+time: 300
+requirements: [
+voidal-ingots/30
+surge-alloy/40
+]
+}
+]
 research: citadel
 category: units
