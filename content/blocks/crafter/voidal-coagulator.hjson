@@ -50,4 +50,4 @@ thorium/30
 category: crafting
 buildVisibility: shown
 research: citadel
-outpetItem: crude-void/2
+outputItem: crude-void/2
