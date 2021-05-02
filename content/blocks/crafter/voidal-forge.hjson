@@ -18,7 +18,7 @@ crude-void/4
 ]
 }
 }
-requirements: ]
+requirements: [
 thorium/30
 surge-alloy/40
 plastanium/15

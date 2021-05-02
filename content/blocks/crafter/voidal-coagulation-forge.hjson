@@ -5,7 +5,7 @@ details: "Ancient , mysterious , and most of all , very hazardous to the minds t
 size: 5
 hasPower: true
 hasItems: true
-has power: true
+hasPower: true
 craftTime: 90
 craftEffect: nuclearcloud
 flameColor: 7457ce

@@ -33,6 +33,7 @@ colorFrom: 6b4474
 colorTo: dcdde3
 }
 }
+}
 ]
 updateEffect: spawnShockwave
 consumes: {
