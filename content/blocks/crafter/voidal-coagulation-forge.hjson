@@ -14,7 +14,8 @@ updateEffect: producesmoke
 consumes: {
 power: 100
 liquid: {
-liquid: voidal-liquid/4
+liquid: voidal-liquid
+amount: 4
 }
 }
 requirements: [

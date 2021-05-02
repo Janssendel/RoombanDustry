@@ -38,7 +38,8 @@ updateEffect: spawnShockwave
 consumes: {
 power: 50
 liquid: {
-liquid: liquid-void/3
+liquid: liquid-void
+amount: 3
 }
 }
 requirements: [
