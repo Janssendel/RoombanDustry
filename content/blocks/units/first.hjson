@@ -7,7 +7,7 @@ size: 3
 consumes: {
 power: 40
 liquid: {
-liquid: voidal-liquid
+liquid: liguid-void
 amount: 4
 }
 }
