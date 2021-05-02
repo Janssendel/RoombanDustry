@@ -1,7 +1,6 @@
 name: Cow
 type: flying
 description: An old Roombanion Small Freighter , the Cow-class Light Freighteris sure to serve you well with it's cargo bays , able to server up to 600 resource units .
-defaultController: MinerAI
 speed: 0.75
 rotateSpeed: 0.75
 drag: 0.1
@@ -9,10 +8,10 @@ accel: 0.75
 miningRange: 2
 armor: 9
 rotateShooting: false
-itemCapacity
+itemCapacity: 600
 mineSpeed: 10
 hitSize: 30
 engineOffest: 30
 engineSize: 4
 strafePenalty: 0
-
+research: first
