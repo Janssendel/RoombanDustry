@@ -7,9 +7,7 @@ size: 3
 consumes: {
 power: 40
 liquid: {
-liquid: [
-oil/4
-]
+liquid: oil/4
 }
 }
 plans: [
@@ -18,10 +16,9 @@ unit: enmity
 time: 300
 requirements: [
 voidal-ingots/40
-surge-alloy/30
-ithrium/25
+surge-alloy/30		
 ]
-}
-]
+}	
+]	
 research: citadel
 category: units
