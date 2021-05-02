@@ -1,0 +1,18 @@
+type: CoreBlock
+name: citadel
+localizedName: Citadel
+description: A Roombanion Citadel . This version has been made to be compatible with other races' cores for easy installment of any special hardware . Strong , mean , stupidly thick for a thing of it's size , the Citadel is a classic example of why the Roombanion's tech superiority and their godlike powers tend to be quite too much .
+details: "Serving the Roombanion ever since the founding of it , the Citadel is a structure meant to be a multipurpose block , capable of doing anything , and doing it effectively ."
+unitCapModifier: 300
+itemCapacity: 7500000
+size: 10
+category: effect
+requirements: [
+copper/20000
+lead/20000
+plastanium/3000
+surge-alloy/9000
+voidal-ingots/10000
+thorium/20000
+]
+research: core-nucleus
