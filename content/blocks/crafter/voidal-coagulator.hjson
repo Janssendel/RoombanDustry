@@ -8,7 +8,6 @@ hasLiquids: true
 craftTime: 1
 flameColor: 7c4b80
 craftEffect: {
-{
 type: WaveEffect
 lifetime: 10
 sizeFrom:0
@@ -17,7 +16,6 @@ colorFrom: 995d9a
 colorTo: 995d9a
 strokeFrom: 20
 strokeTo: 0
-}
 }
 updateEffect: spawnShockwave
 consumes: {
