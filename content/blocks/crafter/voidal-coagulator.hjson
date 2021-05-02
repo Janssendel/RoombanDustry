@@ -33,15 +33,12 @@ colorFrom: 6b4474
 colorTo: dcdde3
 }
 }
-}
 ]
 updateEffect: spawnShockwave
 consumes: {
 power: 50
 liquid: {
-liquid: [
-liquid-void/3
-]
+liquid: liquid-void/3
 }
 }
 requirements: [

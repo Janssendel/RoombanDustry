@@ -1,4 +1,5 @@
 type: GenericSmelter
+name: Voidal Coagulation Forge
 localizedName: Voidal Coagulation Forge
 description: Not-so-friendly piece of reality-morping forge that creates the Voidal Ingots for all the Roombanion structures
 details: "Ancient , mysterious , and most of all , very hazardous to the minds that sees them ." 
@@ -13,9 +14,7 @@ updateEffect: producesmoke
 consumes: {
 power: 100
 liquid: {
-liquid: [
-voidal-liquid/4
-]
+liquid: voidal-liquid/4
 }
 }
 requirements: [
