@@ -1,0 +1,24 @@
+name: Voidal Gratificator
+descriptions: The step up from the Voidal COnstructs ,the Voidal Gratificator bring the joy of having better things that will often make any commanders happy .
+research: first
+size: 5
+category: units
+requirements: [
+voidal-ingots/50
+surge-alloy/40
+plastanium/30
+]
+consumes: {
+power: 25
+items: {
+items: [
+voidal-ingots/50
+surge-alloy/50
+]
+}
+}
+upgrades: [
+[enmity , hostility]
+[cow , bull]
+]
+builsVisibilty: shown
