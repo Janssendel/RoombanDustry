@@ -19,7 +19,7 @@ requirements: [
 voidal-ingots/40
 surge-alloy/30		
 ]
-}	
+}
 {
 unit: cow
 time: 300
