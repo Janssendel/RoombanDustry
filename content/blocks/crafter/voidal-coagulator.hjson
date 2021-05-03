@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: LiquidConverter
 localizedName: Voidal Coagulator
 description: Creats crude void material from liquid void , for the purpose of later refining the crude void into Voidal Ingots .
 details: "A creation that harvests black holes to make crude void . Crude void essence is highly deadly , and still retains some anomalous properties of the source that was used to make them ."
@@ -9,7 +9,16 @@ liquidCapacity: 1000
 itemcapacity: 30
 craftTime: 1
 flameColor: 7c4b80
-craftEffect: ballfire
+craftEffect: {
+type: WaveEffect
+colorFrom: 2c2d38
+colorTo: ffffff
+sizeFrom: 30
+sizeTo: 0
+strokeFrom: 1
+strokeTo: 3
+rotation: 9
+}
 updateEffect: spawnShockwave
 consumes: {
 power: 50
