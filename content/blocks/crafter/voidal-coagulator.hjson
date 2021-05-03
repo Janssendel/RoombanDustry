@@ -5,6 +5,8 @@ details: "A creation that harvests black holes to make crude void . Crude void e
 hasPower: true
 hasItems: false
 hasLiquids: true
+liquidCapacity: 1000
+itemcapacity: 30
 craftTime: 1
 flameColor: 7c4b80
 craftEffect: ballfire

@@ -6,6 +6,7 @@ size: 5
 hasPower: true
 hasLiquids: false
 hasItems: true
+itemCapacity: 1000
 craftTime: 150
 flameColor: ffffff
 craftEffect: plasticExplosion

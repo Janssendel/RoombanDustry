@@ -7,6 +7,8 @@ size: 5
 hasPower: true
 hasItems: true
 hasPower: true
+itemCapacity: 1000
+liquidCapacity: 1000
 craftTime: 90
 craftEffect: nuclearcloud
 flameColor: 7457ce
