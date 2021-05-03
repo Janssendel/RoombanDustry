@@ -20,6 +20,9 @@ shake: 1
 shootSound: missileDischarge
 shots: 15
 inaccuracy: 5
+reload: 10
+rotate: false
+alternate: false
 bullet: {
 type: MissileBulletType
 damage: 350
