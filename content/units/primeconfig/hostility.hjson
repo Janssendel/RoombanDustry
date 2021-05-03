@@ -7,10 +7,10 @@ flying: true
 speed: 1.75
 rotateSpeed: 1.25
 accel: 1.75
-engineOffset: 10
+engineOffset: 9
 engineSize: 3
 lightRadius: 30
-lightCOlor: 2c2d38
+lightColor: 2c2d38
 weapons: [
 {
 mirror: true
