@@ -9,16 +9,7 @@ liquidCapacity: 1000
 itemcapacity: 30
 craftTime: 1
 flameColor: 7c4b80
-craftEffect: {
-type: WaveEffect
-colorFrom: 2c2d38
-colorTo: ffffff
-sizeFrom: 30
-sizeTo: 0
-strokeFrom: 1
-strokeTo: 3
-rotation: 9
-}
+craftEffect: sporeSlowed
 updateEffect: spawnShockwave
 consumes: {
 power: 50
