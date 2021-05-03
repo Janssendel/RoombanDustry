@@ -6,8 +6,8 @@ size: 5
 hasPower: true
 hasLiquids: false
 hasItems: true
-itemCapacity: 1000
-craftTime: 150
+itemCapacity: 100
+craftTime: 100
 flameColor: ffffff
 craftEffect: plasticExplosion
 updateEffect: producesmoke
