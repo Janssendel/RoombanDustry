@@ -8,7 +8,6 @@ hasLiquids: true
 liquidCapacity: 100
 itemCapacity: 30
 craftTime: 1
-flameColor: 7c4b80
 craftEffect: sporeSlowed
 updateEffect: spawnShockwave
 consumes: {
