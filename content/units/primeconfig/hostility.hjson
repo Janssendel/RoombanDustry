@@ -24,6 +24,7 @@ reload: 10
 rotate: false
 alternate: false
 bullet: {
+speed: 1.75
 type: MissileBulletType
 damage: 350
 lifetime: 100
@@ -34,6 +35,8 @@ width: 10
 homingPower: 2
 homingRange: 100
 status: blasted
+splashDamage: 100
+splashDamageRadius: 10
 }
 }
 ]
