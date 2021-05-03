@@ -7,22 +7,13 @@ hasItems: false
 hasLiquids: true
 craftTime: 1
 flameColor: 7c4b80
-craftEffect: {
-type: WaveEffect
-lifetime: 10
-sizeFrom:0
-sizeTo: 20
-colorFrom: 995d9a
-colorTo: 995d9a
-strokeFrom: 20
-strokeTo: 0
-}
+craftEffect: ballfire
 updateEffect: spawnShockwave
 consumes: {
 power: 50
 liquid: {
 liquid: liquid-void
-amount: 3
+amount: 0.50
 }
 }
 requirements: [
