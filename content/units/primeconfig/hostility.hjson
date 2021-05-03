@@ -20,23 +20,25 @@ shake: 1
 shootSound: missileDischarge
 shots: 15
 inaccuracy: 5
-reload: 10
+reload: 30
 rotate: false
-alternate: false
+alternate: true
 bullet: {
-speed: 1.75
+speed: 2
 type: MissileBulletType
 damage: 350
 lifetime: 100
 trailColor: 2c2d38
-trailEffect: fireballsmoke
+trailEffect: missileTrail
 height: 40
-width: 10
+width: 5
 homingPower: 2
 homingRange: 100
 status: blasted
 splashDamage: 100
 splashDamageRadius: 10
+frontColor: 2c2d38
+backColor: 2c2d38
 }
 }
 ]
