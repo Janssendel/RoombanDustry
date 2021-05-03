@@ -23,7 +23,7 @@ inaccuracy: 5
 bullet: {
 type: MissileBulletType
 damage: 350
-liftime: 100
+lifetime: 100
 trailColor: 2c2d38
 trailEffect: fireballsmoke
 height: 40
