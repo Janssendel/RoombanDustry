@@ -1,0 +1,66 @@
+type: naval
+localizedName: Blood Raven
+description: A Citadel-produced only ship , the Blood Raven has the same armaments of the Enmity , albeit the weapons fire alot more slower . Still , it's a staple with all kinds of space-faring pilots .
+details : "You'd probably piloted this ship once in your daily life as a Roombanion citizen . It's reliable enough vessel , being a miner , a combat fighter and being whatever the hell you tasked it with . Being a multipurpose civillian craft , this thing is already pretty good for any kind of job careers you want to follow . "
+flying: true
+hitSize: 21
+health: 150
+armor: 40
+range: 100
+rotateSpeed: 50
+drag: 0
+accel: 1
+speed: 4
+miningSpeed: 40
+mineTier: 40
+engineOffset: 4
+engineSize: 2
+rotateShooting: true
+weapons: [
+{
+shots: 4
+shootCone: 35
+shake: 1
+reload: 50
+rotate: false
+mirror: true
+alternate: false
+inaccuracy: 30
+x: 4
+y: 0
+hittable: false
+bullet: {
+type: LaserBoltBulletType
+lifetime: 100
+damage: 40
+speed: 0.75
+pierce: true
+pierceBuilding: true
+pierceCap: 400
+hitEffect: ballfire
+buildingDamageMultiplier: 2
+reflectable: false
+absorbable: false
+keepVelocity: true
+makeFire: true
+trailEffect: instTrail
+incendAmount: 10
+incendSpread: 30
+homingPower: 4
+homingRange: 100
+width: 2
+height: 9
+status: melting
+mixColorFrom: ffd37f
+mixColorTo: f3e979
+spin: 4
+}
+}
+]
+isCounted: true
+lightRadius: 40
+lightOpacity: 1
+lightColor:995d9a
+
+
+
