@@ -42,7 +42,7 @@ absorbable: false
 }
 ]
 research: hostility
-isCounted: false
+isCounted: true
 
 
 

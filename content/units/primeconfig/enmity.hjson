@@ -35,7 +35,7 @@ speed: 0.75
 pierce: true
 pierceBuilding: true
 pierceCap: 400
-hitEffect: shootHealYellow
+hitEffect: ballfire
 buildingDamageMultiplier: 2
 reflectable: false
 absorbable: false
@@ -55,7 +55,7 @@ spin: 4
 }
 }
 ]
-isCounted: false
+isCounted: true
 lightRadius: 40
 lightOpacity: 1
 lightColor:995d9a
