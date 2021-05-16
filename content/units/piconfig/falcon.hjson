@@ -28,7 +28,7 @@ hitSound: bang
 x: 0
 y: 0
 bullet: {
-type: LiquidBulletType
+type: BasicBulletType
 pierce: true
 pierceCap: 40
 lifetime: 80
