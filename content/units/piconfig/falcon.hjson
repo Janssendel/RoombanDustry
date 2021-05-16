@@ -9,8 +9,8 @@ rotateSpeed: 50
 drag: 0
 accel: 1
 speed: 4
-engineOffset:
-engineSize:
+engineOffset: 4
+engineSize: 3
 rotateShooting: false
 type: naval
 flying: true
