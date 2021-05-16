@@ -2,7 +2,7 @@ type: GenericSmelter
 localizedName: Voidal Forge
 description: The standard forge of the Roombanion . A vital facility , used to forge void material into pure Voidal Ingots .
 details : "It's alot more better than sutff that you would normally use for the refinement of crude void into Voidal Ingots . Roombanion tech is alot more fitted for this job , so you basically have a pretty good exchange for the crude void into the ingots ."
-size: 5
+size: 10
 hasPower: true
 hasLiquids: false
 hasItems: true

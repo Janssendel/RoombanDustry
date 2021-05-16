@@ -3,7 +3,7 @@ name: Voidal Coagulation Forge
 localizedName: Voidal Coagulation Forge
 description: Not-so-friendly piece of reality-morping forge that creates the Voidal Ingots for all the Roombanion structures
 details: "Ancient , mysterious , and most of all , very hazardous to the minds that sees them ." 
-size: 5
+size: 10
 hasPower: true
 hasItems: true
 hasPower: true
