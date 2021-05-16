@@ -32,8 +32,6 @@ power: 1000
 }
 shootEffect: [
 {
-type: MultiEffect
-effects:
 {
 type: WaveEffect
 colorFrom: ffffff
@@ -45,20 +43,33 @@ rotation: 45
 strokeFrom: 8
 strokeTo: 2
 }
-{
-type: WaveEffect
-colorFrom: ffffff
-colorTo: ffffff
-sizeFrom: 20
-sizeTo: 0
-sides: 9
-rotation: 40
-strokeFrom: 7
-strokeTo: 1
-}
 }
 ]
 hitEffect: ballfire
+ammoTypes: {
+voidal-ingots: {
+type: RailBulletType
+damage: 30000
+length: 4000
+pierceDamageFactor: 100
+pierce: true
+pierceBuilding: true
+}
+crude-void: {
+type: ArtilleryBulletType
+damage: 30000
+trailMult: 9
+trailSize: 6
+width: 10
+height: 10
+splashDamageRadius: 100
+splashDamage: 10000
+speed: 0.75
+lifetime: 1000
+backColor:995d9a
+frontColor: 6b4474
+}
+}
 coolantMultiplier: 5
 liquidCapacity: 10000
 requirements: [
