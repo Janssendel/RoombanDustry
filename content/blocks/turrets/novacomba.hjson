@@ -32,7 +32,6 @@ power: 1000
 }
 shootEffect: [
 {
-{
 type: WaveEffect
 colorFrom: ffffff
 colorTo: ffffff
@@ -42,7 +41,6 @@ sides: 9
 rotation: 45
 strokeFrom: 8
 strokeTo: 2
-}
 }
 ]
 hitEffect: ballfire
