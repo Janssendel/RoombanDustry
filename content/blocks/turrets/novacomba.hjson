@@ -70,7 +70,7 @@ coolantMultiplier: 5
 liquidCapacity: 10000
 requirements: [
 voidal-ingots/10000
-surge/4000
+surge-alloy/4000
 plastanium/5000
 thorium/10000
 lead/10000
