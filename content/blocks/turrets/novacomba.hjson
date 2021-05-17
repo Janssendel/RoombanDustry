@@ -13,7 +13,7 @@ range: 20000
 rotateSpeed: 0.75
 cooldown: 140
 maxAmmo: 400
-ammoPerShot:8
+ammoPerShot:5
 inacurracy: 15
 spread: 3
 acceptCoolant: true
