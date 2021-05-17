@@ -7,12 +7,12 @@ targetGround: true
 size: 5
 health: 6750
 reloadTime: 150
-recoilAmount: 1
+recoilAmount: 3
 shots: 8
 range: 20000
 rotateSpeed: 0.75
 cooldown: 140
-maxAmmo: 400
+maxAmmo: 40
 ammoPerShot:5
 inacurracy: 15
 spread: 3
@@ -23,7 +23,7 @@ chargeMaxDelay: 4
 chargeTime: 4
 ambientSound: roombavibe-citadel00
 placeableLiquid: true
-insulated: true
+insulated: false
 absorbLasers: true
 breakable: true
 solid: true
