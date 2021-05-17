@@ -30,7 +30,7 @@ solid: true
 consumes: {
 power: 1000
 }
-shootEffect: [
+shootEffect: {
 {
 type: WaveEffect
 colorFrom: ffffff
@@ -42,7 +42,7 @@ rotation: 45
 strokeFrom: 8
 strokeTo: 2
 }
-]
+}
 hitEffect: ballfire
 ammoTypes: {
 voidal-ingots: {
