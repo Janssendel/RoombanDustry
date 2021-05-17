@@ -8,7 +8,6 @@ size: 5
 health: 6750
 reloadTime: 1000
 recoilAmount: 3
-shots: 8
 range: 20000
 rotateSpeed: 0.75
 cooldown: 140
