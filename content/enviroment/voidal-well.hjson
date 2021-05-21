@@ -1,0 +1,47 @@
+type: ShallowLiquid
+name: Voidal Well
+variants: 1
+liquidDrop: liquid-void
+liquidMultiplier: 1
+status: {
+name: spaghettification
+localizedName: Spaghettification
+damage: 10
+speedMultiplier: 10
+effectChance: 0.50
+effect: {
+type: MultiEffect
+effects: [
+{
+type: WaveEffect
+lifetime: 10
+sizeFrom:0
+sizeTo: 20
+colorFrom: 995d9a
+colorTo: 995d9a
+strokeFrom: 20
+strokeTo: 0
+}
+{
+type: ParticleEffect
+particles: 50
+lifetime: 20
+lenght: 40
+strokeFrom: 30
+strokeTo: 0
+lenFrom: 30
+lenTo: 30
+colorFrom: 6b4474
+colorTo: dcdde3
+}
+]
+}
+}
+statusDuration: 1
+cacheLayer: tar
+emitLight: true
+lightRadius: 50
+lightColor: 2c2d38
+attributes: {
+heat: 0
+}

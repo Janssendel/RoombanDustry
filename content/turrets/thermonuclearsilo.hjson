@@ -1,0 +1,49 @@
+name: Thermonuclear Silo
+description: [red] Your hands are hovering above the button , one capable of decieving you from the countless millions of casualties . Have you wished to do such heinous crimes ? Or is it just another of your hobbies ? We all know what will happen because of that button , because of that one single button , one that holds the fate of trillions in one single press . Perhaps , it is time for the End Times to happen , now that your ultimate goal has been achieved . A path of genocide and insanity , led by a pyscho in the search of glory ...
+details: "Only when it is armageddon , shall we see our foolishness to start such wars . At the end of timelines , we seek and find their demise , to see their once utopian society , now reduced to a smoking crater , filled with radioactivity , nuclear winters , black sludges , ashes of once tall building , and the most common , a barren wasteland , devoid of all life but the utter crimes against one another ."
+size: 5
+health: 4000
+rotateSpeed: 9
+reloadTime: 900
+restitution: 0
+recoilAmount: 0
+range: 1000
+shootEffect: nuclearcloud
+smokeEffect: nuclearShockwave
+chargeTime: 3600
+chargeSound: nuke-siren
+breakable: true
+solid: true
+consumes: {
+power: 1000
+}
+absorbLasers: true
+acceptCoolant: true
+coolantUsage: 40
+ammoTypes: {
+voidal-ingots: {
+type: MissileBulletType
+damage: 4000000
+lifetime: 4000
+drag: 0.004
+splashDamageRadius: 10000
+splashDamage: 30000
+sprite: roombandustry-thermonuclearmissile
+speed: 1
+despawnEffect: nuclearcloud
+}
+}
+liquidCapacity: 40000
+requirements: [
+voidal-ingots/50000
+surge/10000
+plastanium/10000
+thorium/50000
+lead/40000
+]
+category: turret
+research: novacomba
+buildVisibility: shown
+canOverdrive: true
+
+

@@ -1,0 +1,81 @@
+type: ItemTurret
+name: Novacomba
+description: The venerable , first of first , pioneer of Railgun/Arillery Barrage Weapons Platform , the Novacomba excels at destroying groups of high-tiered blocks or units in a single shot , breaching their structural intergrity , and then making a mini black hole just for the fun of making people die in a gruesome way.
+details: "One yet so long , so forgotten , yet so distinguished . One shall fall , one shall stand ."
+targetAir: true
+targetGround: true
+size: 5
+health: 6750
+reloadTime: 1000
+recoilAmount: 3
+range: 20000
+rotateSpeed: 0.75
+cooldown: 140
+maxAmmo: 40
+ammoPerShot:5
+inacurracy: 15
+spread: 3
+acceptCoolant: true
+coolantUsage: 3
+chargeSound: heavy-orb-shoot
+chargeMaxDelay: 4
+chargeTime: 4
+ambientSound: roombavibe-citadel00
+placeableLiquid: true
+insulated: false
+absorbLasers: true
+breakable: true
+solid: true
+consumes: {
+power: 1000
+}
+shootEffect: {
+type: WaveEffect
+colorFrom: ffffff
+colorTo: ffffff
+sizeFrom: 20
+sizeTo: 0
+sides: 9
+rotation: 45
+strokeFrom: 8
+strokeTo: 2
+}
+hitEffect: ballfire
+smokeEffect: producesmoke
+ammoTypes: {
+voidal-ingots: {
+type: RailBulletType
+damage: 30000
+length: 4000
+pierceDamageFactor: 100
+pierce: true
+pierceBuilding: true
+}
+crude-void: {
+type: ArtilleryBulletType
+damage: 30000
+trailMult: 9
+trailSize: 6
+width: 10
+height: 10
+splashDamageRadius: 100
+splashDamage: 10000
+speed: 0.75
+lifetime: 1000
+backColor:995d9a
+frontColor: 6b4474
+}
+}
+coolantMultiplier: 5
+liquidCapacity: 10000
+requirements: [
+voidal-ingots/10000
+surge-alloy/4000
+plastanium/5000
+thorium/10000
+lead/10000
+]
+category: turret
+research: citadel
+buildVisibility: shown
+canOverdrive: true
