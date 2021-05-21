@@ -25,7 +25,7 @@ voidal-ingots: {
 type: MissileBulletType
 damage: 4000000
 lifetime: 4000
-drag: 0.004
+drag: 0.4
 splashDamageRadius: 10000
 splashDamage: 30000
 sprite: roombandustry-thermonuclearmissile
@@ -36,7 +36,7 @@ despawnEffect: nuclearcloud
 liquidCapacity: 40000
 requirements: [
 voidal-ingots/50000
-surge/10000
+surge-alloy/10000
 plastanium/10000
 thorium/50000
 lead/40000
