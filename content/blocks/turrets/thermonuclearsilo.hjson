@@ -45,5 +45,5 @@ category: turret
 research: novacomba
 buildVisibility: shown
 canOverdrive: true
-
+type:ItemTurret
 
