@@ -31,7 +31,6 @@ splashDamage: 30000
 sprite: roombandustry-thermonuclearmissile
 speed: 1
 despawnEffect: nuclearcloud
-//i have yet to have a good nuke explosion effect
 }
 }
 liquidCapacity: 40000

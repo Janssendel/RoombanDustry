@@ -41,6 +41,7 @@ strokeFrom: 8
 strokeTo: 2
 }
 hitEffect: ballfire
+smokeEffect: producesmoke
 ammoTypes: {
 voidal-ingots: {
 type: RailBulletType
