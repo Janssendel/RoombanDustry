@@ -1,0 +1,9 @@
+name: Voidal Ingots
+localizedName: Voidal Ingots
+description: Formed from the cores of black holes , warp disturbances , flux stars , liquid Void and a host of many eldritch horrors and cosmic horrors , the Voidal Ingots are the pure embodiments of pure Lovecraftian horror . They scream , alot , because of magnetic resonance , and the souls of those trapped in the raw sources required to make them , poor souls .
+details : "We still dont know what these are forged from , maybe something that's out of our grasp of reality ?"
+radioactivity: 1000
+charge: 9000
+cost: 100
+color: 6b4474
+research: crude-void
