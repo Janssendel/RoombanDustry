@@ -25,26 +25,26 @@ Events.on(ClientLoadEvent, () => {
 
 
 
-    const ananyum = new Planet("ananyum", Planets.sun, 2, 1);
-    ananyum.generator = hhhaGenerator;
-    ananyum.mesh = new HexMesh(ananyum, 3);
-    ananyum.orbitRadius = 5;
-    ananyum.orbitTime = 1.5 * 60;
-    ananyum.rotateTime = 30;
-    ananyum.bloom = true;
-    ananyum.accessible = true;
-    ananyum.startSector = 1;
-    ananyum.hasAtmosphere = true;
-    ananyum.atmosphereColor = Liquids.oil.color;
-    ananyum.atmosphereRadIn = 0.1;
-    ananyum.atmosphereRadOut = 0.5;
-    ananyum.alwaysUnlocked = true;
-    ananyum.localizedName = "Fraightais";
+    const ananyum = new Planet("Fraightais", Planets.sun, 2, 1);
+    Fraightais.generator = hhhaGenerator;
+    Fraightais.mesh = new HexMesh(ananyum, 3);
+    Fraightais.orbitRadius = 5;
+    Fraightais.orbitTime = 1.5 * 60;
+    Fraightais.rotateTime = 30;
+    Fraightais.bloom = true;
+    Fraightais.accessible = true;
+    Fraightais.startSector = 1;
+    Fraightais.hasAtmosphere = true;
+    Fraightais.atmosphereColor = Liquids.oil.color;
+    Fraightais.atmosphereRadIn = 0.1;
+    Fraightais.atmosphereRadOut = 0.5;
+    Fraightais.alwaysUnlocked = true;
+    Fraightais.localizedName = "Fraightais";
 
 
 
 
-    const Voidal-Central = new SectorPreset("Voidal-Central", ananyum, 205);
+    const Voidal-Central = new SectorPreset("Voidal-Central", Fraightais, 205);
     Voidal-Central.captureWave = 30;
     Voidal-Central.localizedName = "Voidal-Central";
     Voidal-Central.difficulty = 10;
