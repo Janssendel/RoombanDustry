@@ -1,5 +1,5 @@
 name: Voidal Gratificator
-descriptions: The step up from the Voidal COnstructs ,the Voidal Gratificator bring the joy of having better things that will often make any commanders happy .
+description: The step up from the Voidal COnstructs ,the Voidal Gratificator bring the joy of having better things that will often make any commanders happy .
 size: 5
 research: first
 category: units
@@ -21,5 +21,5 @@ upgrades: [
 [enmity , hostility]
 [cow , bull]
 ]
-builsVisibilty: shown
+buildVisibilty: shown
 type: Reconstructor
