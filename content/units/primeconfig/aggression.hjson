@@ -1,14 +1,14 @@
 name: Aggresion
 type: flying
 description: The equivalent of orbital artillery ship , the Aggresion is one hell of a flying artillery ship , with a trusty main weapon that decimate anything from long range
-deatils: "Who knows what might be lurking under these asteroids in this god-so-desolate place ."
+details: "Who knows what might be lurking under these asteroids in this god-so-desolate place ."
 health: 4600
 hitsize: 40
 flying: true
 speed: 1.50
 rotateSpeed: 1
 accel: 1.50
-engineOffest: 30
+engineOffset: 30
 engineSize: 5
 lightRadius: 40
 lightColor: 2c2d38
