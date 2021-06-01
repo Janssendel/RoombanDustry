@@ -1,1 +1,1 @@
-require("campaign/Fraightais");
+require("campaign/fraightais");

@@ -26,7 +26,7 @@ strokeTo: 0
 type: ParticleEffect
 particles: 50
 lifetime: 20
-lenght: 40
+length: 40
 strokeFrom: 30
 strokeTo: 0
 lenFrom: 30
