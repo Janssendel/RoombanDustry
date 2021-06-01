@@ -8,14 +8,16 @@ health: 150
 armor: 40
 range: 100
 rotateSpeed: 50
-drag: 0
-accel: 1
+drag: 
+accel: 2
 speed: 4
-miningSpeed: 40
+mineSpeed: 40
 mineTier: 40
 engineOffset: 4
 engineSize: 2
 rotateShooting: true
+buildBeamOffset: 10
+buildSpeed: 10
 weapons: [
 {
 shots: 4
