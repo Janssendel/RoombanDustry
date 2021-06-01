@@ -41,7 +41,7 @@ strokeFrom: 8
 strokeTo: 2
 }
 hitEffect: ballfire
-smokeEffect: producesmoke
+smokeEffect: pointBeam
 ammoTypes: {
 voidal-ingots: {
 type: RailBulletType
@@ -64,6 +64,8 @@ speed: 2
 lifetime: 1000
 backColor:995d9a
 frontColor: 6b4474
+hitEffect: bigShockwave
+despawnEffect: pulverizeMedium
 }
 }
 coolantMultiplier: 5
