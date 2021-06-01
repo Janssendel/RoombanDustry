@@ -5,13 +5,14 @@ speed: 0.75
 rotateSpeed: 0.75
 drag: 0.1
 accel: 0.75
-miningRange: 2
+mineSpeedRange: 2
 armor: 9
 rotateShooting: false
 itemCapacity: 600
 mineSpeed: 10
 hitSize: 30
-engineOffest: 30
+engineOffset: 30
 engineSize: 4
 strafePenalty: 0
 research: first
+mineTier: 10
