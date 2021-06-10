@@ -359,7 +359,6 @@ const fraightaisGenerator = extend(PlanetGenerator, {
         /* you can port this yourself if you want to, it's not necessary unless you want ruins in the sectors.
         if(ruinCount > 0){
             int padding = 25;
-
             //create list of potential positions
             for(int x = padding; x < width - padding; x++){
                 for(int y = padding; y < height - padding; y++){
@@ -369,23 +368,18 @@ const fraightaisGenerator = extend(PlanetGenerator, {
                     }
                 }
             }
-
             ints.shuffle(rand);
-
             int placed = 0;
             float diffRange = 0.4f;
             //try each position
             for(int i = 0; i < ints.size && placed < ruinCount; i++){
                 int val = ints.items[i];
                 int x = Point2.x(val), y = Point2.y(val);
-
                 //do not overwrite player spawn
                 if(Mathf.within(x, y, spawn.x, spawn.y, 18f)){
                     continue;
                 }
-
                 float range = difficulty + rand.random(diffRange);
-
                 Tile tile = tiles.getn(x, y);
                 BasePart part = null;
                 if(tile.overlay().itemDrop != null){
@@ -395,7 +389,6 @@ const fraightaisGenerator = extend(PlanetGenerator, {
                 }else if(rand.chance(0.05)){ //ore-less parts are less likely to occur.
                     part = bases.parts.getFrac(range);
                 }
-
                 //actually place the part
                 if(part != null && BaseGenerator.tryPlace(part, x, y, Team.derelict, (cx, cy) -> {
                     Tile other = tiles.getn(cx, cy);
@@ -412,12 +405,10 @@ const fraightaisGenerator = extend(PlanetGenerator, {
                     }
                 })){
                     placed ++;
-
                     int debrisRadius = Math.max(part.schematic.width, part.schematic.height)/2 + 3;
                     Geometry.circle(x, y, tiles.width, tiles.height, debrisRadius, (cx, cy) -> {
                         float dst = Mathf.dst(cx, cy, x, y);
                         float removeChance = Mathf.lerp(0.05f, 0.5f, dst / debrisRadius);
-
                         Tile other = tiles.getn(cx, cy);
                         if(other.build != null && other.isCenter()){
                             if(other.team() == Team.derelict && rand.chance(removeChance)){
@@ -504,3 +495,13 @@ voidalCentral.captureWave = 30;
 voidalCentral.difficulty = 10;
 voidalCentral.alwaysUnlocked = true;
 */
+
+/* WIP progress at something more like "planet themes"
+{
+	let music = loadMusic(".preparing_for_assault.ogg");
+
+if (campaignmenuisshown && Vars.renderer.planets.planet == planet) {
+    // stop current music ...
+    // play the specified music ...
+}
+}
