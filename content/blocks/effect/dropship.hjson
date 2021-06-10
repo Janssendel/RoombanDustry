@@ -1,0 +1,16 @@
+type: CoreBlock
+name: DropShip
+localizedName: DropShip
+unitCapModifier: 1
+itemCapacity: 1000
+size: 10
+category: effect
+requirements: [
+copper/10
+lead/200
+plastanium/30
+surge-alloy/9
+thorium/20
+]
+research: core-nucleus
+unitType: summoner
