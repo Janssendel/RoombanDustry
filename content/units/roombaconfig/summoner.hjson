@@ -1,0 +1,61 @@
+type: mech
+localizedName: Summoner
+description: A specialist core , more like a first-line core in situations where making a small pain the enemy's entrenchment before you bring the bigger pain of bombarding them from outer orbit . Really , really cheap .
+details : "The perfect place for your needs to scout and then shoot at somebody first ."
+flying: false
+canBoost: true
+hitSize: 21
+health: 150
+armor: 40
+range: 100
+rotateSpeed: 50
+drag: 1
+accel: 2
+speed: 4
+mineSpeed: 40
+mineTier: 40
+engineOffset: 4
+engineSize: 2
+buildBeamOffset: 10
+buildSpeed: 10
+weapons: [
+{
+name: summoner-left
+shots: 2
+inaccuracy: 45
+rotate: false
+reload: 100
+mirror: false
+alternate: false
+shootCone: 45
+shootSound: missileDischarge
+hitSound: bang
+x: 0
+y: 0
+bullet: {
+type: BasicBulletType
+pierce: true
+pierceCap: 40
+lifetime: 80
+hitEffect: ballfire
+makeFire: true
+hittable: false
+reflectable: false
+trailEffect: ballfire
+incendAmount: 40
+incendSpread: 5
+homingPower: 1
+homingRange: 100
+width: 5
+height: 5
+status: melting
+mixColorFrom: efe4ca
+mixColorTo: ffd37f
+spin: 4
+sprite: heavySlagShot
+}
+]
+isCounted: true
+lightRadius: 40
+lightOpacity: 1
+lightColor:995d9a
