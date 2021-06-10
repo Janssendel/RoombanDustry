@@ -54,6 +54,7 @@ mixColorTo: ffd37f
 spin: 4
 sprite: heavySlagShot
 }
+}
 ]
 isCounted: true
 lightRadius: 40
