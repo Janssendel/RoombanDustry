@@ -20,8 +20,8 @@ buildBeamOffset: 10
 buildSpeed: 10
 weapons: [
 {
-name: summoner-left
-shots: 2
+mirror: true
+shots: 8
 inaccuracy: 45
 rotate: false
 reload: 100
