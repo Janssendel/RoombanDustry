@@ -496,12 +496,3 @@ voidalCentral.difficulty = 10;
 voidalCentral.alwaysUnlocked = true;
 */
 
-/* WIP progress at something more like "planet themes"
-{
-	let music = loadMusic(".preparing_for_assault.ogg");
-
-if (campaignmenuisshown && Vars.renderer.planets.planet == planet) {
-    // stop current music ...
-    // play the specified music ...
-}
-}
