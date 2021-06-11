@@ -1,5 +1,4 @@
 type: CoreBlock
-name: DropShip
 localizedName: DropShip
 unitCapModifier: 1
 itemCapacity: 1000
