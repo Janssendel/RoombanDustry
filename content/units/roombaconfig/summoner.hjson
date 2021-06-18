@@ -1,7 +1,6 @@
 type: mech
 localizedName: Summoner
-description: A specialist core , more like a first-line core in situations where making a small pain the enemy's entrenchment before you bring the bigger pain of bombarding them from outer orbit . Really , really cheap .
-details : "The perfect place for your needs to scout and then shoot at somebody first ."
+details : "You'd have to be crazy enough to somehow become a mechmaster ."
 flying: false
 canBoost: true
 hitSize: 21
