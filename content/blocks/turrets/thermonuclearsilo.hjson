@@ -27,7 +27,7 @@ voidal-ingots: {
 type: MissileBulletType
 damage: 4000000
 lifetime: 4000
-drag: 0.4
+drag: -0.1
 splashDamageRadius: 10000
 splashDamage: 30000
 sprite: RoombanDustry-thermonuclearmissile
