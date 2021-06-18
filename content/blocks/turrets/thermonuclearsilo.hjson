@@ -12,6 +12,7 @@ shootEffect: nuclearcloud
 smokeEffect: nuclearcloud
 chargeTime: 3600
 chargeSound: nuke-siren
+chargeEffectBegin: 
 breakable: true
 solid: true
 consumes: {
@@ -29,7 +30,7 @@ lifetime: 4000
 drag: 0.4
 splashDamageRadius: 10000
 splashDamage: 30000
-sprite: roombandustry-thermonuclearmissile
+sprite: RoombanDustry-thermonuclearmissile
 speed: 1
 despawnEffect: nuclearcloud
 }
